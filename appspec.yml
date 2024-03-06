@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /root/.m2/repository/com/mt/maven-web-application/0.0.1-SNAPSHOT/maven-web-application-0.0.1-SNAPSHOT.war
+  - source: ./maven-web-application-0.0.1-SNAPSHOT.war
     destination: /tmp
