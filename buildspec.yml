@@ -16,4 +16,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/maven-web-app.war
+    - target/maven-web-app-0.0.1-SNAPSHOT.war
