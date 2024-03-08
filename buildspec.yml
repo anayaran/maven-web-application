@@ -8,6 +8,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - aws s3 cp dist/* s3://test-bucket-gln
 artifacts:
   files:
-    - target/maven-web-app-0.0.1-SNAPSHOT.war
+    - '**/*'
