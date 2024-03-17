@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo yum update
 sudo yum install java-11-amazon-corretto-devel -y
-wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65.tar.gz
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.87/bin/apache-tomcat-9.0.87.tar.gz
 tar -xvf apache-tomcat-9*.tar.gz
 sudo mv apache-tomcat-9.0.65 /usr/local/tomcat
 sudo sh /usr/local/tomcat/bin/startup.sh
