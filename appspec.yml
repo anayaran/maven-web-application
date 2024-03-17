@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: ./target/maven-web-application.war
+  - source: maven-web-application.war
     destination: /opt
 hooks:
   BeforeInstall:
