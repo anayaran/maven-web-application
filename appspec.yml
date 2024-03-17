@@ -5,6 +5,6 @@ files:
     destination: /opt
 hooks:
   BeforeInstall:
-    - location: /opt/tomcat_install.sh
+    - location: tomcat_install.sh
   AfterInstall:
-    - location: /opt/copy_app.sh
+    - location: copy_app.sh
