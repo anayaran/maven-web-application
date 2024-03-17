@@ -3,3 +3,12 @@ os: linux
 files:
   - source: ./target/maven-web-application.war
     destination: /opt
+hooks:
+  BeforeInstall:
+    - location: /opt/tomcat_install.sh
+      timeout: 1000
+      runas: root
+  AfterInstall:
+    - location: /opt/copy_app.sh
+      timeout: 100
+      runas: root
