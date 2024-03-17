@@ -12,5 +12,7 @@ artifacts:
   files:
     - ./target/maven-web-application.war
     - appspec.yml
+    - tomcat_install.sh
+    - copy_app.sh
   discard-paths: yes
 
