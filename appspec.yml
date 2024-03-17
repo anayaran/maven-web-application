@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: ./target/maven-web-app.war
+  - source: ./target/maven-web-application.war
     destination: /opt
