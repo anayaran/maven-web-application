@@ -1,2 +1,2 @@
 #!/bin/bash
-cp /opt/maven-web-app.war /usr/local/tomcat/webapps
+cp /opt/maven-web-application.war /usr/local/tomcat/webapps
