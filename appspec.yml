@@ -6,5 +6,9 @@ files:
 hooks:
   BeforeInstall:
     - location: tomcat_install.sh
+      timeout: 180
+      runas: root
   AfterInstall:
     - location: copy_app.sh
+      timeout: 180
+      runas: root
